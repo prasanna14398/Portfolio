@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md fixed w-full z-10">
+      <div
+        class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold">Portfolio</h1>
+        <nav class="space-x-4">
+          <a href="#home" class="hover:text-blue-500">Home</a>
+          <a href="#about" class="hover:text-blue-500">About</a>
+          <a href="#skills" class="hover:text-blue-500">Skills</a>
+          <a href="#projects" class="hover:text-blue-500">Projects</a>
+          <a href="#contact" class="hover:text-blue-500">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="min-h-screen flex items-center justify-center bg-blue-100 pt-20"
+    >
+      <div class="text-center">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm Prasanna</h2>
+        <p class="text-xl mb-4">Web Developer</p>
+        <a
+          href="#contact"
+          class="bg-blue-500 text-white px-5 py-2 rounded hover:bg-blue-600"
+          >Hire Me</a
+        >
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Project 1 -->
+          <div
+            class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Personal Portfolio Website</h3>
+            <p class="text-gray-700">
+              A clean, responsive portfolio built with HTML, Tailwind CSS, and
+              JavaScript. Includes smooth scrolling, form validation, and
+              modular code.
+            </p>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Student Record System (PHP)</h3>
+            <p class="text-gray-700">
+              A basic CRUD app to manage student records using PHP and MySQL.
+              Features add, update, delete, and search functionalities.
+            </p>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Landing Page UI</h3>
+            <p class="text-gray-700">
+              A responsive landing page design created using Tailwind CSS and
+              JavaScript focusing on UI/UX principles for modern startup
+              websites.
+            </p>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            class="bg-gray-100 p-6 rounded shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-xl font-bold mb-2">PHP Login System</h3>
+            <p class="text-gray-700">
+              A simple login and registration system using core PHP and MySQL
+              with password hashing and session handling for secure
+              authentication.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+        <p class="text-lg text-gray-600">
+          I'm a passionate web designer with strong interest in front-end and
+          UI/UX design. I'm also a fresher PHP developer, eager to contribute to
+          dynamic projects and grow my backend skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-10">My Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="p-4 bg-white shadow rounded">HTML</div>
+          <div class="p-4 bg-white shadow rounded">CSS</div>
+          <div class="p-4 bg-white shadow rounded">JavaScript</div>
+          <div class="p-4 bg-white shadow rounded">Jquery</div>
+          <div class="p-4 bg-white shadow rounded">PHP</div>
+          <div class="p-4 bg-white shadow rounded">MySQL</div>
+          <div class="p-4 bg-white shadow rounded">Bootstrap</div>
+          <div class="p-4 bg-white shadow rounded">Git & GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <h3 class="text-xl font-bold mb-2">Personal Portfolio Website</h3>
+            <p>
+              Responsive portfolio using HTML, Tailwind CSS, and JavaScript.
+            </p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <h3 class="text-xl font-bold mb-2">Student Record System (PHP)</h3>
+            <p>
+              Simple PHP project to manage student data with MySQL database
+              (CRUD).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-10">Contact Me</h2>
+        <form id="contactForm" class="bg-white p-6 rounded shadow space-y-4">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-2 border border-gray-300 rounded"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-2 border border-gray-300 rounded"
+            required
+          />
+          <textarea
+            rows="4"
+            placeholder="Your Message"
+            class="w-full p-2 border border-gray-300 rounded"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
+            Send Message
+          </button>
+        </form>
+        <p id="formMessage" class="text-center text-green-600 mt-4 hidden">
+          Message sent successfully!
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-4 text-center shadow-inner">
+      <p>&copy; 2025 Prasanna B | Web Developer</p>
+      <div class="mt-2 space-x-4">
+        <a
+          href="https://github.com/prasanna14398"
+          class="text-blue-600 hover:underline"
+          target="_blank"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/feed/"
+          class="text-blue-600 hover:underline"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      const form = document.getElementById("contactForm");
+      const msg = document.getElementById("formMessage");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        msg.classList.remove("hidden");
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
