@@ -8,11 +8,22 @@
 
 ## 🚀 Featured Projects
 
-### 🏠 [1. House Price Prediction (Lasso & Ridge Regression)](./2_House_Price_Prediction_Lasso_Ridge)
-Predicting house prices using regression models with L1 (Lasso) and L2 (Ridge) regularization to handle overfitting.
+### 🏠[1. House Price Prediction] | Machine Learning Project
 
-**Tech Used:** Scikit-learn, Pandas, Numpy  
-**Highlights:** Regularization comparison, cross-validation, performance metrics  
+Tech Stack: Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+
+Developed a regression-based machine learning model to predict house prices using key features such as area, number of rooms, and location.
+Performed data cleaning, exploratory data analysis (EDA), and feature engineering to extract insights and improve model performance.
+Implemented and compared models like Linear Regression, DecisionTree,SVM, achieving an R² score of XX% on the test dataset.
+Visualized predicted vs. actual prices using Matplotlib and Seaborn for performance evaluation.
+
+Highlights:
+
+Preprocessed data using scaling and encoding techniques.
+
+Optimized model parameters with GridSearchCV
+
+Designed a clean, modular workflow for reproducibility.
 
 ---
 
@@ -51,6 +62,4 @@ Currently learning advanced ML techniques and model deployment using **Streamlit
 
 ## 📫 Connect with Me
 - 💼 [LinkedIn](www.linkedin.com/in/babu-prasanna-9841ba1b4 )  
-- 🐍 [GitHub](https://github.com/prasannab)
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
 - 🐍 [GitHub](https://github.com/prasannab)
