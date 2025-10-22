@@ -21,7 +21,8 @@ Highlights:
 
 Preprocessed data using scaling and encoding techniques.
 
-Optimized model parameters with GridSearchCV
+Performed outlier detection using Z-score (>3 threshold).
+Outliers were either removed or capped to prevent them from skewing model performance.
 
 Designed a clean, modular workflow for reproducibility.
 
