@@ -44,7 +44,7 @@ Unsupervised learning project to segment customers based on spending habits and 
 **Highlights:** Clustering, silhouette score, visualization of customer groups  
 
 ---
-### Wind Speed Forecasting Using LSTM (Multivariate Time Series)
+### 🌪️[4. Wind Speed Forecasting Using LSTM (Multivariate Time Series)]
 
 I developed a multivariate LSTM model to forecast wind speed using historical wind dataset features such as wind direction, humidity, and temperature. The project includes full data preprocessing, normalization, sequence window generation, time-series model building, hyperparameter tuning, and model evaluation using RMSE. I also implemented SHAP explainability to identify how each feature influences the model's predictions. The project follows structured deep-learning workflows and is fully automated for training, forecasting, and visualization.
 
