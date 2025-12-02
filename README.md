@@ -7,52 +7,42 @@ I specialize in building end-to-end machine learning and deep learning projects,
 
 ## 🚀 Featured Projects
 
-### 🏠 1. House Price Prediction — Regression Modeling
-**Tech:** Python, Scikit-learn, Pandas, Seaborn  
-Built a predictive model to estimate house prices using regression algorithms.
+### 🏠 1.Chennai Housing Price Prediction – Regression ML Project
 
-**Highlights**
-- Data cleaning, feature engineering, and outlier handling (Z-Score)
-- Compared Linear Regression, Decision Tree, and SVM
-- Achieved R² score of **XX%**
-- Clear visualization of predictions and correlations
+I built a machine learning model to predict house selling prices in Chennai using a dataset with 7,100+ property records. The workflow included full data cleaning, missing value imputation, categorical encoding, outlier removal using Z-score, feature engineering, and exploratory data analysis with correlation heatmaps.
+
+Multiple regression models were trained—including Linear Regression, Decision Tree Regressor, and SVR—followed by model comparison using MAE, MSE, and R² metrics. Linear Regression performed best with an R² score of 0.87, showing strong predictive capability. A final prediction pipeline was also created using standardized input features to estimate property prices.
+
+This project demonstrates end-to-end ML workflow skills: data preprocessing, EDA, model training, evaluation, and deployment-ready prediction.
 
 ---
 
 ### ❤️ 2. Heart Disease Classification (KNN & SVM)
-**Tech:** Scikit-learn, Pandas, Matplotlib  
-Classification model to predict heart disease likelihood.
 
-**Highlights**
-- Hyperparameter tuning (k-value, SVM kernels)
-- Performance evaluation (confusion matrix, accuracy)
-- Scaled features for improved performance
-
+I built a machine learning model to predict Chronic Kidney Disease using patient clinical data. The workflow included data cleaning, handling missing values, encoding categorical features, outlier removal, feature scaling, and model training. Multiple algorithms were tested, including Logistic Regression, Random Forest, SVM, KNN, and Naive Bayes. Logistic Regression, Random Forest, and SVM achieved the best performance with 98–100% accuracy. This project demonstrates end-to-end ML pipeline development and medical classification analysis.
 ---
 
 ### 👥 3. Customer Segmentation — K-Means Clustering
-**Tech:** Scikit-learn, Seaborn  
-Segmented customers based on income and spending behaviour.
 
-**Highlights**
-- Applied K-Means clustering  
-- Elbow & Silhouette analysis  
-- Visualized customer clusters  
+I developed a customer segmentation model using K-Means clustering to group customers based on purchasing behavior and demographic attributes. The project involved data cleaning, handling missing values, feature scaling, and exploratory data analysis to understand patterns in spending scores, income levels, and customer activity.
 
+Using the Elbow Method and Silhouette Score, I selected the optimal number of clusters and trained the K-Means model to segment customers into distinct groups. Each cluster represents a unique customer profile, such as high-income high-spending customers, budget buyers, and low-engagement customers. These insights help businesses personalize marketing strategies, improve customer targeting, and optimize product recommendations.
+
+This project demonstrates practical skills in unsupervised learning, clustering, data preprocessing, visualization, and business analytics. 
 ---
 
 ### 🌪️ 4. Wind Speed Forecasting Using LSTM (Multivariate Time Series)
-**Tech:** TensorFlow, Keras, SHAP, Pandas  
-Developed an LSTM-based forecasting model using multiple weather features.
 
-**Highlights**
-- Multivariate time-series preprocessing  
-- LSTM sequence modeling with tuned hyperparameters  
-- RMSE-based evaluation  
-- **SHAP explainability** for understanding feature impact  
-- Automated training → forecasting → visualization pipeline  
+I developed a multivariate LSTM model to forecast wind speed using historical wind dataset features such as wind direction, humidity, and temperature. The project includes full data preprocessing, normalization, sequence window generation, time-series model building, hyperparameter tuning, and model evaluation using RMSE. I also implemented SHAP explainability to identify how each feature influences the model's predictions. The project follows structured deep-learning workflows and is fully automated for training, forecasting, and visualization.  
 
 ---
+### 🌱 5. Fertilizer / Crop Prediction — ML Classification Project
+
+I built a machine learning model that predicts the most suitable crop/fertilizer based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.
+The project includes full data preprocessing, exploratory data analysis, outlier removal (Z-Score), feature scaling, and training multiple ML models such as Logistic Regression, Random Forest, SVM, KNN, Naive Bayes, and Gradient Boosting.
+
+After evaluating all models using accuracy, precision, recall, and F1-score, Random Forest performed best and was used for final predictions.
+This project demonstrates my skills in data cleaning, feature engineering, model comparison, and building a complete ML workflow from raw data to final prediction.
 
 ## 🧠 Skills & Tools
 
